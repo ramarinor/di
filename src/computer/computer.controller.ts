@@ -1,5 +1,4 @@
 import { Controller, Get } from '@nestjs/common';
-import { runMain } from 'module';
 import { CpuService } from 'src/cpu/cpu.service';
 import { DiskService } from 'src/disk/disk.service';
 @Controller('computer')
